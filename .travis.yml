@@ -1,0 +1,42 @@
+language: cpp
+
+compiler:
+  - gcc
+  - clang
+
+env:
+  - TRAVIS_BUILD_TYPE=Debug, TRAVIS_CMAKE_GENERATOR="Unix Makefiles",
+  - TRAVIS_BUILD_TYPE=Release, TRAVIS_CMAKE_GENERATOR="Unix Makefiles",
+
+before_script:
+# compile the codyco-superbuild for getting the software to test
+  - cd ..  
+  # use superbuild for getting codyco-modules dependencies
+  - git clone https://github.com/robotology/codyco-superbuild
+  - cd codyco-superbuild
+  - pwd
+  # install dependencies using the codyco-superbuild script
+  - chmod +x ./.ci/travis-deps.sh
+  - sh .ci/travis-deps.sh
+  - mkdir build
+  - cd build
+  # using the YCM_EP_MAINTAINER_MODE variable to enable the subproject-dependees target
+  - cmake -G"${TRAVIS_CMAKE_GENERATOR}" -DCODYCO_TRAVIS_CI:BOOL=ON -DCMAKE_BUILD_TYPE=${TRAVIS_BUILD_TYPE} -DYCM_EP_MAINTAINER_MODE:BOOL=ON -DNON_INTERACTIVE_BUILD:BOOL=TRUE ..
+  - make
+  - export CMAKE_PREFIX_PATH=/home/travis/build/robotology-playground/codyco-superbuild/build/install
+  - export PATH=/home/travis/build/robotology-playground/codyco-superbuild/build/install/bin
+  - export LD_LIBRARY_PATH=/home/travis/build/robotology-playground/codyco-superbuild/build/install/lib
+  - export YARP_DATA_DIRS=/home/travis/build/robotology-playground/codyco-superbuild/build/install/share/codyco
+  - cd ../..
+  # go back to codyco-big-datasets-testing
+  - cd codyco-big-datasets-testing
+
+script:
+  - cd insitu-ft-calibration
+  - cd 20150205
+  - insituFTSensorCalibrationBatch --from batchTesting.ini --validateForceMatrix validation_force_matrix.csv
+
+
+notifications:
+  email:
+    - pegua1@gmail.com
