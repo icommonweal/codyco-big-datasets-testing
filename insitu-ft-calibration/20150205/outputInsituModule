@@ -1,0 +1,119 @@
+Mount the desired added mass and start new dataset collection via the rpc port.
+[DEBUG] Offset estimated for dataset: no_mass
+[DEBUG]    44.5548
+    27.287
+   71.9802
+-0.0937873
+  -2.01044
+ -0.335299
+InSitu FT sensor calibration: waiting for new dataset start.
+Mount the desired added mass and start new dataset collection via the rpc port.
+[DEBUG] Offset estimated for dataset: cube_mass
+[DEBUG]   41.2481
+  26.3068
+  71.3282
+-0.115896
+ -1.87729
+-0.316307
+InSitu FT sensor calibration: waiting for new dataset start.
+Mount the desired added mass and start new dataset collection via the rpc port.
+InSitu FT sensor calibration: waiting for new dataset start.
+Mount the desired added mass and start new dataset collection via the rpc port.
+[DEBUG] Offset estimated for dataset: little_bottle_plus_cube_mass
+[DEBUG]   39.8916
+  25.2658
+  70.0028
+-0.124448
+ -1.89345
+-0.319939
+InSitu FT sensor calibration: waiting for new dataset start.
+Mount the desired added mass and start new dataset collection via the rpc port.
+InSitu FT sensor calibration: waiting for new dataset start.
+Mount the desired added mass and start new dataset collection via the rpc port.
+[DEBUG] Offset estimated for dataset: two_bottles_plus_cube_mass
+[DEBUG]   37.2927
+  22.9892
+  68.1247
+-0.145333
+ -1.88052
+-0.297011
+InSitu FT sensor calibration: waiting for new dataset start.
+Mount the desired added mass and start new dataset collection via the rpc port.
+InSitu FT sensor calibration: waiting for new dataset start.
+Mount the desired added mass and start new dataset collection via the rpc port.
+[DEBUG] Offset estimated for dataset: three_bottles_plus_cube_mass
+[DEBUG]   35.3815
+  21.4203
+  65.8776
+-0.147576
+  -1.8761
+-0.287921
+InSitu FT sensor calibration: waiting for new dataset start.
+Mount the desired added mass and start new dataset collection via the rpc port.
+[INFO] svd problems singular value 3.80867e+08
+3.74185e+08
+3.74185e+08
+4.64939e+07
+4.48787e+07
+4.48787e+07
+1.66462e+07
+1.62004e+07
+1.62004e+07
+     212704
+    37823.6
+    37823.6
+    14943.5
+    3159.65
+    3159.65
+    2818.19
+    2034.42
+    2034.42
+    1576.59
+[INFO] TTT 
+ 4.92416e+07            0            0   4.5257e+07            0            0 -2.05146e+07            0            0 -3.97496e+06            0            0   1.1161e+07            0            0     -29776.5            0            0    1.027e+07
+           0  4.92416e+07            0            0   4.5257e+07            0            0 -2.05146e+07            0            0 -3.97496e+06            0            0   1.1161e+07            0            0     -29776.5            0  4.08447e+06
+           0            0  4.92416e+07            0            0   4.5257e+07            0            0 -2.05146e+07            0            0 -3.97496e+06            0            0   1.1161e+07            0            0     -29776.5  4.28902e+06
+  4.5257e+07            0            0  2.67951e+08            0            0 -1.54534e+08            0            0 -2.57682e+07            0            0  1.45483e+07            0            0  1.54888e+06            0            0  1.20666e+07
+           0   4.5257e+07            0            0  2.67951e+08            0            0 -1.54534e+08            0            0 -2.57682e+07            0            0  1.45483e+07            0            0  1.54888e+06            0  2.55536e+07
+           0            0   4.5257e+07            0            0  2.67951e+08            0            0 -1.54534e+08            0            0 -2.57682e+07            0            0  1.45483e+07            0            0  1.54888e+06  2.98355e+07
+-2.05146e+07            0            0 -1.54534e+08            0            0  1.12942e+08            0            0  1.46867e+07            0            0 -7.93738e+06            0            0      -926858            0            0 -6.15973e+06
+           0 -2.05146e+07            0            0 -1.54534e+08            0            0  1.12942e+08            0            0  1.46867e+07            0            0 -7.93738e+06            0            0      -926858            0 -1.44301e+07
+           0            0 -2.05146e+07            0            0 -1.54534e+08            0            0  1.12942e+08            0            0  1.46867e+07            0            0 -7.93738e+06            0            0      -926858 -2.15309e+07
+-3.97496e+06            0            0 -2.57682e+07            0            0  1.46867e+07            0            0  2.49974e+06            0            0  -1.3302e+06            0            0      -153349            0            0 -1.07844e+06
+           0 -3.97496e+06            0            0 -2.57682e+07            0            0  1.46867e+07            0            0  2.49974e+06            0            0  -1.3302e+06            0            0      -153349            0 -2.44168e+06
+           0            0 -3.97496e+06            0            0 -2.57682e+07            0            0  1.46867e+07            0            0  2.49974e+06            0            0  -1.3302e+06            0            0      -153349 -2.79512e+06
+  1.1161e+07            0            0  1.45483e+07            0            0 -7.93738e+06            0            0  -1.3302e+06            0            0  2.65919e+06            0            0      25326.3            0            0  2.38091e+06
+           0   1.1161e+07            0            0  1.45483e+07            0            0 -7.93738e+06            0            0  -1.3302e+06            0            0  2.65919e+06            0            0      25326.3            0  1.30427e+06
+           0            0   1.1161e+07            0            0  1.45483e+07            0            0 -7.93738e+06            0            0  -1.3302e+06            0            0  2.65919e+06            0            0      25326.3  1.55052e+06
+    -29776.5            0            0  1.54888e+06            0            0      -926858            0            0      -153349            0            0      25326.3            0            0      13267.2            0            0        15545
+           0     -29776.5            0            0  1.54888e+06            0            0      -926858            0            0      -153349            0            0      25326.3            0            0      13267.2            0       148711
+           0            0     -29776.5            0            0  1.54888e+06            0            0      -926858            0            0      -153349            0            0      25326.3            0            0      13267.2       174905
+   1.027e+07  4.08447e+06  4.28902e+06  1.20666e+07  2.55536e+07  2.98355e+07 -6.15973e+06 -1.44301e+07 -2.15309e+07 -1.07844e+06 -2.44168e+06 -2.79512e+06  2.38091e+06  1.30427e+06  1.55052e+06        15545       148711       174905  8.93193e+06
+[INFO] estimated mass 3.09538
+insituFTSensorCalibration module: writing to file calibration matrix: 
+-0.244757	 0.045961	-0.004907	 0.764679	-2.749568	 4.147777
+ 0.154823	-0.204103	-0.032672	 2.216702	-0.642302	 0.420795
+-0.063750	 0.020181	 0.822829	 0.164162	 0.176553	-0.309531
+ 0.000000	 0.000000	 0.000000	 0.000000	 0.000000	 0.000000
+ 0.000000	 0.000000	 0.000000	 0.000000	 0.000000	 0.000000
+ 0.000000	 0.000000	 0.000000	 0.000000	 0.000000	 0.000000
+insituFTSensorCalibration module: with full scale: 
+ 1000.000000	 1000.000000	 1000.000000	 20.000000	 20.000000	 20.000000
+Module closing
+yarp: Removing output from /insituFTCalibrationsensors/right_leg/rpc:o to /icub/right_leg/rpc:i
+yarp: Removing output from /insituFTCalibrationsensors/right_leg/command:o to /icub/right_leg/command:i
+yarp: Datagram packet size set to 65000
+yarp: Removing input from /icub/right_leg/state:o to /insituFTCalibrationsensors/right_leg/state:i
+yarp: Datagram packet size set to 65000
+yarp: Removing input from /icub/right_leg/stateExt:o to /insituFTCalibrationsensors/right_leg/stateExt:i
+yarp: Datagram packet size set to 65000
+yarp: Removing input from /icub/right_leg/analog:o to /insituFTCalibrationsensors/ftSens/r_leg_ft_sensor:i
+yarp: Removing output from /insituFTCalibration/icub/right_leg/rpc:o to /icub/right_leg/rpc:i
+yarp: Removing output from /insituFTCalibration/icub/right_leg/command:o to /icub/right_leg/command:i
+yarp: Datagram packet size set to 65000
+yarp: Removing input from /icub/right_leg/state:o to /insituFTCalibration/icub/right_leg/state:i
+yarp: Datagram packet size set to 65000
+yarp: Removing input from /icub/right_leg/stateExt:o to /insituFTCalibration/icub/right_leg/stateExt:i
+Module finished
+yarp: Removing output from /log/icub14/insituFTSensorCalibration/17408 to /yarplogger
+
