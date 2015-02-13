@@ -1,4 +1,4 @@
-# codyco-big-datasets-testing
+# codyco-big-datasets-testing [![Build Status](https://travis-ci.org/robotology-playground/codyco-big-datasets-testing.svg?branch=master)](https://travis-ci.org/robotology-playground/codyco-big-datasets-testing)
 
 Tests related to CoDyCo (www.codyco.eu) that require big datasets (> 1MB).
 
